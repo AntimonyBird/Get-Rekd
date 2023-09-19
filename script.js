@@ -3,8 +3,8 @@ const CLIENT_ID = 'hWmT5ZuGe51IgiMD';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
-    name: prompt(),
-    color: prompt(),
+    name: prompt("Choose Name"),
+    color: prompt("Choose Hex Color Code","#000000"),
   },
 });
 
